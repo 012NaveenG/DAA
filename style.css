@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.btn-hover:hover {
+    background-color: #09ed09;
+}
+
+/* section1 starts here  */
+
+.section1 {
+    height: 100vh;
+    width: 100vw;
+    background: url(images/page1.webp);
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    height: 60px;
+    margin: auto;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+    background-color: rgba(255, 255, 254, 0.347);
+}
+
+nav h1 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+}
+
+li {
+    list-style: none;
+    text-transform: capitalize;
+    padding: 10px 0px;
+    transition: 0.2s ease-in;
+
+}
+
+.mid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.mid li:hover {
+    padding: 0px 0px;
+    color: #ff4500;
+    border-bottom: 1px solid #0000ff;
+}
+
+.rght {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.content {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 80px;
+    top: 200px;
+}
+
+.content h2 {
+    color: #fff;
+    font-family: 'Lobster Two', cursive;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.content h1 {
+    text-transform: capitalize;
+    font-family: 'Lobster Two', cursive;
+    font-size: 50px;
+}
+
+.content p {
+    text-transform: capitalize;
+    margin: 20px 0px;
+}
+
+.content button {
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: grey;
+    cursor: pointer;
+}
+
+/* section1 ends here  */
+/* section2 starts here  */
+
+.section2 h1 {
+    margin: 30px 0px;
+    text-transform: capitalize;
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+.items {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item h5 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 5px;
+
+}
+
+.bn {
+    height: 100px;
+    width: 100px;
+    border: 6px solid #f6eeee;
+    border-radius: 50%;
+    /* background: url(page1.jpg); */
+    overflow: hidden;
+    background-size: cover;
+
+}
+
+.gnAp {
+    height: 100px;
+    width: 100px;
+    border: 6px solid #f6eeee;
+    border-radius: 50%;
+    /* background: url(greenApple.jpeg); */
+    overflow: hidden;
+    background-size: cover;
+
+}
+
+.pr {
+    height: 100px;
+    width: 100px;
+    border: 6px solid #f6eeee;
+    border-radius: 50%;
+    /* background: url(pear.webp); */
+    overflow: hidden;
+    background-size: cover;
+
+}
+
+.mng {
+    height: 100px;
+    width: 100px;
+    border: 6px solid #f6eeee;
+    border-radius: 50%;
+    /* background: url(mango.jpg); */
+    overflow: hidden;
+    background-size: cover;
+}
+
+.pnAp {
+    height: 100px;
+    width: 100px;
+    border: 6px solid #f6eeee;
+    border-radius: 50%;
+    /* background: url(pineapple.jpeg); */
+    overflow: hidden;
+    background-size: cover;
+}
+
+.item-hover:hover {
+    border: 6px solid #f7e706;
+}
+
+.section2 button {
+    color: rgb(43, 42, 42);
+    text-align: center;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    margin: 50px 45%;
+    border-radius: 20px;
+    border: none;
+    background-color: #f7e706;
+    cursor: pointer;
+}
+
+/* section2 ends here  */
+
+/* section3 starts here  */
+.section3 {
+    background-color: #ede5e5;
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side img {
+    height: 80%;
+    margin: 50px 5px;
+    width: 100%;
+
+}
+
+.rght-side-content {
+    width: 60%;
+    align-items: center;
+    transform: translate(50%, 20%);
+}
+
+.right-side {
+    height: 100%;
+    width: 100%;
+}
+
+.right-side h3 {
+    text-transform: capitalize;
+    font-family: 'Lobster Two', cursive;
+    font-size: 15px;
+    color: #fff;
+}
+
+.right-side h1 {
+    text-transform: capitalize;
+    font-family: 'Lobster Two', cursive;
+    font-size: 50px;
+    margin: 5px 0px;
+}
+
+.right-side p {
+    color: rgb(108, 105, 105);
+    margin: 30px 0px;
+}
+
+.specification {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.specification h5 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 5px;
+    width: 80px;
+}
+
+.con {
+    height: 100px;
+    width: 100px;
+    border: 6px solid #f6eeee;
+    border-radius: 50%;
+    background: url(images/pear.webp);
+    background-size: cover;
+
+}
+
+.org {
+    height: 100px;
+    width: 100px;
+    border: 6px solid #f6eeee;
+    border-radius: 50%;
+    background: url(images/pineapple.jpeg);
+    background-size: cover;
+
+}
+
+.ow {
+    height: 100px;
+    width: 100px;
+    border: 6px solid #f6eeee;
+    border-radius: 50%;
+    background: url(images/greenApple.jpeg);
+    background-size: cover;
+
+}
+
+/* section3 ends here  */
+
+/* section4 starts here  */
+.section4 {
+    background-color: rgb(250, 225, 7);
+    border-radius: 5px;
+}
+
+.section4 h3 {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Lobster Two', cursive;
+}
+
+.section4 h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-family: 'Lobster Two', cursive;
+}
+
+.carts {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.cart {
+    width: 23%;
+    /* height: 300px; */
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+.carts img {
+    margin-top: 30px;
+    width: 100%;
+    height: 250px;
+}
+
+.carts h3 {
+    margin-top: 40px;
+    text-transform: capitalize;
+}
+
+.carts p {
+    color: grey;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.section4 button {
+    color: rgb(43, 42, 42);
+    text-align: center;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    margin: 50px 45%;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* section4 ends here  */
+
+/* section5 starts here  */
+.section5 {
+    background-color: rgb(250, 248, 248);
+    position: relative;
+    /* height: 100vh; */
+    z-index: -2;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.products {
+    width: 80%;
+    height: 100%;
+    margin-left: 200px;
+    background-color: #fff;
+
+}
+
+.section5 h3 {
+    text-transform: capitalize;
+    font-family: 'Lobster Two', cursive;
+    margin-left: 200px;
+
+}
+
+.section5 h1 {
+    text-transform: capitalize;
+    font-family: 'Lobster Two', cursive;
+    margin-left: 200px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.pr-div {
+    margin-left: 100px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px 5px;
+    align-items: center;
+
+}
+
+.prd {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: 20px 0px;
+    align-items: center;
+
+}
+
+.prd img {
+    width: 100%;
+    height: 70%;
+}
+
+.prd h4 {
+    color: rgb(93, 92, 92);
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.pineapple {
+    height: 500px;
+    width: 300px;
+    background-color: #09ed09;
+    background: url(images/pineapple.png);
+    position: absolute;
+    background-size: cover;
+    margin-left: 1000px;
+    margin-top: -400px;
+}
+
+.sqr {
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgb(250, 225, 7);
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -150px;
+    z-index: -1;
+}
+
+/* section5 ends here  */
+
+/* section6 starts here  */
+
+.section6 {
+    height: 100vh;
+    width: 100vw;
+}
+.m-div{
+    height: 60%;
+    width: 90%;
+    transform: translate(8%,35%);
+    /* display: flex;
+    justify-content: flex-start; */
+}
+.m-div .left-side{
+    width: 30%;
+    float: left;
+
+}
+.left-side h3{
+    text-transform: capitalize;
+    font-family: 'Lobster Two', cursive;
+    
+}
+.left-side h1{
+    text-transform: capitalize;
+    font-family: 'Lobster Two', cursive;
+    font-size: 50px;
+}
+.left-side p{
+   color:rgb(165, 160, 160);
+   width: 70%;
+   font-weight: 500;
+   margin: 50px 0px;
+}
+.left-side button{
+    color: rgb(43, 42, 42);
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(250, 225, 7);
+    cursor: pointer;
+}
+.right-side{
+    display: grid;
+    float: left;
+    width: 70%;
+    grid-template-columns: auto auto;
+    border: 5px solid rgb(235, 230, 230);
+    border-radius: 8px;
+    gap: 10px 10px;
+
+}
+.itm{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.itm button{
+    color: rgb(43, 42, 42);
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(60, 176, 60);
+    cursor: pointer;
+}
+.itm h4{
+    text-transform: capitalize;
+}
+/* section6 ends here  */
